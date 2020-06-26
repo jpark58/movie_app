@@ -28,3 +28,22 @@ getMovies = async () => {
 ```
 
 ---
+
+## Deploying on github pages
+
+Run below command to set up environment.
+
+```
+npm i gh-pages
+```
+
+Modify package.json. Add followings:
+
+```
+"scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+
+"homepage": "https://jpark58.github.io/movie_app/"
+```
