@@ -1,4 +1,4 @@
-# Creating movie recommendation app
+# [React] Movie recommendation app
 
 ## Use API from yts.am
 
@@ -46,4 +46,12 @@ Modify package.json. Add followings:
   },
 
 "homepage": "https://jpark58.github.io/movie_app/"
+```
+
+## React-router-dom
+
+Install react-router-dom
+
+```
+npm install react-router-dom
 ```
