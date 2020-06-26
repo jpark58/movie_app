@@ -2,8 +2,11 @@
 
 ## Use API from yts.am
 
-However, since YTS keeps changing their URL, so we will use a serverless function to proxy the requests to it.
+However, since YTS keeps changing their URL, so we will use a serverless function to proxy the requests to it.  
+We will use id, year, title, summary, and poster.  
 [Link]:https://yts-proxy.now.sh/list_movies.json
+
+---
 
 ## componentDidMount()
 
@@ -23,3 +26,5 @@ getMovies = async () => {
     this.getMovies();
   }
 ```
+
+---
