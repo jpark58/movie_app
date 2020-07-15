@@ -3,7 +3,7 @@
 This project is to practice React.
 
 ## Output
-https://jpark58.github.io/movie_app/#/
+https://jpark58.github.io/movie_app/#/   
 <img src="https://user-images.githubusercontent.com/48766032/86018692-aa98f880-ba60-11ea-8934-dbfe0fc81545.png" width="700"/>
 
 ## Use API from yts.am
